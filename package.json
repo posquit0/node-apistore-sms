@@ -1,6 +1,6 @@
 {
   "name": "apistore-sms",
-  "version": "0.7.29",
+  "version": "0.7.30",
   "description": "Send SMS with Node.js via API Store SMS service.",
   "main": "index.js",
   "scripts": {
