@@ -1,4 +1,4 @@
-<img src="https://avatars3.githubusercontent.com/u/11437969?v=3&s=200" align="left" width="128px" height="128px"/>
+<img src="http://www.apistore.co.kr/img/service_img/20140807101212708.png" align="left" width="200px" height="128px"/>
 
 ### **API Store SMS for Node**
 > *A transporter for SMS/LMS/MMS via API Store SMS service*
@@ -9,6 +9,9 @@
 <br />
 
 [**APIStore-SMS**](https://github.com/posquit0/node-apistore-sms)는 [API Store](http://www.apistore.co.kr/api/apiView.do?service_seq=151)에서 제공하는 SMS API를 Node.js에서 쉽게 활용하기 위하여 작성된 클라이언트 모듈입니다.
+
+- 이용 중 발생한 문제에 대하여 책임지지 않습니다.
+- 최초 작성은 자동차 렌트 플랫폼 [CARPLAT](https://www.carplat.co.kr)에서 사용하기 위하여 작성되었습니다.
 
 ## <a name="installation">Installation
 
