@@ -1,4 +1,4 @@
-<img src="http://www.apistore.co.kr/img/service_img/20140807101212708.png" align="left" width="128px" height="128px"/>
+<img src="http://www.apistore.co.kr/img/service_img/20140807101212708.png" align="left" width="200px" height="128px"/>
 
 ### **API Store SMS for Node**
 > *A transporter for SMS/LMS/MMS via API Store SMS service*
