@@ -1,6 +1,6 @@
 {
   "name": "apistore-sms",
-  "version": "0.7.28",
+  "version": "0.7.29",
   "description": "Send SMS with Node.js via API Store SMS service.",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,7 @@
   "homepage": "https://github.com/posquit0/node-apistore-sms#readme",
   "dependencies": {
     "lodash": "^4.14.0",
+    "moment": "^2.14.1",
     "request": "^2.74.0",
     "request-promise": "^4.0.2"
   }
