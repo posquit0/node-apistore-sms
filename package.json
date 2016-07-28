@@ -1,0 +1,34 @@
+{
+  "name": "apistore-sms",
+  "version": "0.7.28",
+  "description": "Send SMS with Node.js via API Store SMS service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/posquit0/node-apistore-sms.git"
+  },
+  "keywords": [
+    "node",
+    "sms",
+    "mms",
+    "lms",
+    "send",
+    "client",
+    "apistore",
+    "api"
+  ],
+  "author": "Claud D. Park <posquit0.bj@gmail.com> (http://www.posquit0.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/posquit0/node-apistore-sms/issues"
+  },
+  "homepage": "https://github.com/posquit0/node-apistore-sms#readme",
+  "dependencies": {
+    "lodash": "^4.14.0",
+    "request": "^2.74.0",
+    "request-promise": "^4.0.2"
+  }
+}
