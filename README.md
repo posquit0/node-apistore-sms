@@ -30,10 +30,24 @@ var apistore = require('apistore-sms').createClient({
   apiId: 'YOUR_ID'
 });
 
-// SMS 전송
+// SMS 전송 (단일 수신자)
 apistore.sendSMS({
   from: '15885588', // 발신자 번호
   to: '01012345678', // 수신자 번호
+  text: 'Hot! Hot!', // 내용
+  subject: '넘나맛있는', // 제목(optional)
+  at: '20160801235959', // 예약시간(optional)
+  author: 'Pizza Huuut' // 발신자 이름(optional)
+}).then(function (cmid) {
+  console.log(cmid); // 메시지 아이디
+}).catch(function (error) {
+  console.log(error);
+});
+
+// SMS 전송 (복수 수신자)
+apistore.sendSMS({
+  from: '15885588', // 발신자 번호
+  to: ['01012345678', '010-2345-6789'], // 수신자 번호
   text: 'Hot! Hot!', // 내용
   subject: '넘나맛있는', // 제목(optional)
   at: '20160801235959', // 예약시간(optional)
@@ -58,13 +72,13 @@ apistore.sendLMS({
   console.log(error);
 });
 
-// MMS 전송 (Not yet implemented to send file)
+// MMS 전송
 apistore.sendLMS({
   from: '15885588', // 발신자 번호
   to: '01012345678', // 수신자 번호
   text: 'Hot! Hot!', // 내용
   subject: '넘나맛있는', // 제목(optional)
-  file: 'multipart/form-data',
+  file: path.join(__dirname, 'test.jpg'), // or fs.createReadStream(filepath)
   at: '20160801235959', // 예약시간(optional)
   author: 'Pizza Huuut' // 발신자 이름(optional)
 }).then(function (cmid) {
