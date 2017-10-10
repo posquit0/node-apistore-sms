@@ -1,6 +1,8 @@
 <img src="http://www.apistore.co.kr/img/service_img/20140807101212708.png" align="left" width="200px" height="128px"/>
 
 ### **API Store SMS for Node**
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/posquit0/node-apistore-sms.svg)](https://greenkeeper.io/)
 > *A transporter for SMS/LMS/MMS via API Store SMS service*
 
 [![npm version](https://badge.fury.io/js/apistore-sms.svg)](https://badge.fury.io/js/apistore-sms)
