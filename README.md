@@ -23,8 +23,8 @@
   <a href="https://www.npmjs.com/package/apistore-sms">
     <img alt="npm" src="https://img.shields.io/npm/dt/apistore-sms.svg" />
   </a>
-  <a href="https://david-dm.org/posquit0/apistore-sms">
-    <img alt="npm" src="https://img.shields.io/david/posquit0/apistore-sms.svg?style=flat-square" />
+  <a href="https://david-dm.org/posquit0/node-apistore-sms">
+    <img alt="npm" src="https://img.shields.io/david/posquit0/node-apistore-sms.svg?style=flat-square" />
   </a>
   <a href="https://opensource.org/licenses/mit-license.php">
     <img alt="MIT License" src="https://badges.frapsoft.com/os/mit/mit.svg?v=103" />
