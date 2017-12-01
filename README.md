@@ -17,14 +17,14 @@
   <a href="https://coveralls.io/github/posquit0/node-apistore-sms">
     <img src="https://coveralls.io/repos/github/posquit0/node-apistore-sms/badge.svg" alt='Coverage Status' />
   </a>
-  <a href="https://badge.fury.io/js/node-apistore-sms">
-    <img alt="npm version" src="https://badge.fury.io/js/node-apistore-sms.svg" />
+  <a href="https://badge.fury.io/js/apistore-sms">
+    <img alt="npm version" src="https://badge.fury.io/js/apistore-sms.svg" />
   </a>
-  <a href="https://www.npmjs.com/package/node-apistore-sms">
-    <img alt="npm" src="https://img.shields.io/npm/dt/node-apistore-sms.svg" />
+  <a href="https://www.npmjs.com/package/apistore-sms">
+    <img alt="npm" src="https://img.shields.io/npm/dt/apistore-sms.svg" />
   </a>
-  <a href="https://david-dm.org/posquit0/node-apistore-sms">
-    <img alt="npm" src="https://img.shields.io/david/posquit0/node-apistore-sms.svg?style=flat-square" />
+  <a href="https://david-dm.org/posquit0/apistore-sms">
+    <img alt="npm" src="https://img.shields.io/david/posquit0/apistore-sms.svg?style=flat-square" />
   </a>
   <a href="https://opensource.org/licenses/mit-license.php">
     <img alt="MIT License" src="https://badges.frapsoft.com/os/mit/mit.svg?v=103" />
