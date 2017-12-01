@@ -1,14 +1,17 @@
 {
   "name": "apistore-sms",
   "version": "0.10.29",
-  "description": "Send SMS with Node.js via API Store SMS service.",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
+  "description": "Transporter to send SMS/LMS/MMS via API Store SMS service",
+  "license": "MIT",
+  "author": "Claud D. Park <posquit0.bj@gmail.com> (http://www.posquit0.com)",
+  "contributors": [],
+  "homepage": "https://github.com/posquit0/node-apistore-sms#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/posquit0/node-apistore-sms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/posquit0/node-apistore-sms/issues"
   },
   "keywords": [
     "node",
@@ -20,16 +23,28 @@
     "apistore",
     "api"
   ],
-  "author": "Claud D. Park <posquit0.bj@gmail.com> (http://www.posquit0.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/posquit0/node-apistore-sms/issues"
+  "engines": {
+    "node": ">=4"
   },
-  "homepage": "https://github.com/posquit0/node-apistore-sms#readme",
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "main": "index",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint lib test",
+    "lint:lib": "eslint lib",
+    "lint:test": "eslint test"
+  },
   "dependencies": {
+    "axios": "^0.17.1",
+    "debug": "^3.1.0",
     "lodash": "^4.14.0",
-    "moment": "^2.14.1",
-    "request": "^2.74.0",
-    "request-promise": "^4.0.2"
+    "moment": "^2.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-omnious": "^0.3.1"
   }
 }
