@@ -35,16 +35,20 @@
     "test": "mocha",
     "lint": "eslint lib test",
     "lint:lib": "eslint lib",
-    "lint:test": "eslint test"
+    "lint:test": "eslint test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "axios": "^1.6.0",
     "debug": "^3.1.0",
     "lodash": "^4.14.0",
-    "moment": "^2.19.3"
+    "moment": "^2.19.3",
+    "snyk": "^1.317.0"
   },
   "devDependencies": {
     "eslint": "^4.12.1",
     "eslint-config-omnious": "^0.3.1"
-  }
+  },
+  "snyk": true
 }
